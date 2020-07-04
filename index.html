@@ -1,1 +1,53 @@
-Shaw and Steve
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shaw 和 Steve 的一亩三分地</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./res/css/index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="box">
+            <p class="welcome-type"><span id="hi"></span></p>
+            <p style="margin-top: 0px; margin-bottom: 50px;">这是 <span class="name">Shaw</span> 和 <span class="name">Steve</span> 的一亩三分地。</p>
+            <div class="divider"><span># 我们是谁鸭</span></div>
+            <div class="row">
+                <div class="profile col-md-6">
+                    <div class="col-xs-2 col-md-2 col-sm-2">
+                        <img src="./res/img/shaw.jpg" class="img-responsive avatar"/>
+                    </div>
+                    <div class="col-xs-10 col-md-10 col-sm-10">
+                        <p class="name">Shaw</p>
+                        <p class="desc">一个立志做生命之光的产品设计小姐姐</p>
+                    </div>
+                </div>
+                <div class="profile col-md-6">
+                    <div class="col-xs-2 col-md-2 col-sm-2">
+                        <img src="./res/img/steve.jpg" class="img-responsive avatar"/>
+                    </div>
+                    <div class="col-xs-10 col-md-10 col-sm-10">
+                        <p class="name">Steve</p>
+                        <p class="desc">一个写代码写到头秃的后台开发小兄弟</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"><span># 为啥要整设么个网页呀</span></div>
+            <div class="text">
+                <p>嘿嘿，Shaw 说，这叫程序员的浪漫。（ Steve 表示一脸懵逼 ）</p>
+            </div>
+            
+            <div class="divider"><span># 这一亩三分地这么简单，未来还会加点什么吗？</span></div>
+            <p class="text">emmm... 不好说，生命不止，折腾不息</p>
+            <p style="text-align:center;font-size:10px;">#TBC</p>
+        </div>
+        <script src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
+        <script>
+            var typed = new Typed('#hi', {
+              strings: ['嘿嘿','你好鸭','欢迎你哦'],
+              typeSpeed: 100, 
+              backSpeed: 50,
+              backDelay:2000,
+            });
+        </script>
+    </body>
+</html>
